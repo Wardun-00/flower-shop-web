@@ -1,0 +1,69 @@
+/* Font style open sense */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+
+    /* head banner style */
+    /* parrent */
+}
+.banner-main-container{
+    max-width: 1920px;
+    height: 825px;
+    background-color:rgba(229, 84, 115, 0.1);
+    /* border:1px solid red; */
+    
+}
+
+.banner-content{
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    /* border:2px solid  red; */
+
+}
+/* child */
+.banner-title-bar{
+    width:50%;
+    height:920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title-bar button{
+    margin-right: 524px;
+    padding: 12px 12px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    margin-top: 20px;
+  
+}
+
+    /* border:2px solid green; */
+    
+
+
+h1{
+    width: 68%;
+
+}
+
+.banner-image-bar {
+    width:50%;
+    height:1020px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border:2px solid rgb(35, 3, 94); */
+}
+
+.banner-image-bar img{
+    width: 500px;
+}
